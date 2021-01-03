@@ -60,8 +60,6 @@ export class MeshLoader {
 
         if (ext === 'glb') {
             this.gltfLoader.load(path, (gltf) => {
-                console.log("loaded", gltf.scene);
-            
                 const obj = gltf.scene;
                 const loaded = new LoadedMesh(obj);
                 self.meshes[key] = loaded;

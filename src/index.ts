@@ -49,6 +49,9 @@ scene.add( directionalLight );
     const loadedRobot = loader.meshes.robot;
     const robot = loadedRobot.obj;
     const robotBones = loadedRobot.parts.Bone;
+
+    console.log('bones', robotBones);
+    console.log('all', loadedRobot.parts);
     
     robot.rotation.x = Math.PI / 2;
     robot.position.z = 10;

@@ -12,7 +12,8 @@
   "dependencies": {
     "physijs": "^1.0.4",
     "promise-callbacks": "^3.8.2",
-    "three": "^0.124.0"
+    "three": "^0.124.0",
+    "worker-loader": "^3.0.7"
   },
   "devDependencies": {
     "@snowpack/plugin-typescript": "^1.1.1",
